@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "113711471869",
+    "project_id": "cuidapet-caslu",
+    "storage_bucket": "cuidapet-caslu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113711471869:android:29fcc424452940bf7b3294",
+        "android_client_info": {
+          "package_name": "br.com.lucasAlmeida.cuidapet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113711471869-l51vj1jou4apvtdrht604uai80ektuhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzU2bWigcFB23YhCNuZH8iG2GHooVteHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113711471869-l51vj1jou4apvtdrht604uai80ektuhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
