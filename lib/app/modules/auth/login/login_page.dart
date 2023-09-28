@@ -2,11 +2,13 @@ import 'package:cuidapet/app/core/ui/extensions/size_screen_extension.dart';
 import 'package:cuidapet/app/core/ui/extensions/theme_extensions.dart';
 import 'package:cuidapet/app/core/ui/widgets/cuidapet_textform_fild.dart';
 import 'package:cuidapet/app/core/ui/widgets/rounded_button_with_icon.dart';
+import 'package:cuidapet/app/modules/auth/login/login_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
+import 'package:validatorless/validatorless.dart';
 
 import '../../../core/ui/icons/cuidapet_icons.dart';
 import '../../../core/ui/widgets/cuidapet_default_button.dart';
-import '../../../core/ui/widgets/loader.dart';
 import '../../../core/ui/widgets/messages.dart';
 
 part 'widgets/login_form.dart';
@@ -41,7 +43,7 @@ class LoginPage extends StatelessWidget {
             const SizedBox(height: 8),
             const _OrSeparetor(),
             const SizedBox(height: 20),
-            const _LoginRegisterButtons(),
+            _LoginRegisterButtons(),
           ],
         ),
       ),
@@ -50,7 +52,7 @@ class LoginPage extends StatelessWidget {
 }
 
 class _OrSeparetor extends StatelessWidget {
-  const _OrSeparetor({super.key});
+  const _OrSeparetor({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

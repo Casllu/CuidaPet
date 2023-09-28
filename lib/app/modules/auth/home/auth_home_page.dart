@@ -24,9 +24,9 @@ class _AuthHomePageState extends State<AuthHomePage> {
 
     reaction<UserModel?>((_) =>widget._authStore.userLogged, (userLogger) {
       if(userLogger != null && userLogger.email.isNotEmpty) {
-        Modular.to.navigate('/home');
+        Modular.to.navigate('/home/');
       } else {
-        Modular.to.navigate('/auth/login');
+        Modular.to.navigate('/auth/login/');
       }
     }); 
 

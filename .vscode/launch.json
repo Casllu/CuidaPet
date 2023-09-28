@@ -7,7 +7,8 @@
         {
             "name": "cuidapet_mobile",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "flutterMode": "debug"
         },
         {
             "name": "cuidapet_mobile (profile mode)",
@@ -21,5 +22,6 @@
             "type": "dart",
             "flutterMode": "release"
         }
+        
     ]
 }
